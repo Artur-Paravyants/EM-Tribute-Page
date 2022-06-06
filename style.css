@@ -1,0 +1,92 @@
+#body {
+    margin: 0;
+  }
+  
+  #main {
+    background-color: #314455;
+    color: white;
+  }
+  
+  #title {
+    display: flex;
+    justify-content: center;
+    color: white;
+    background-color: #9E5A63;
+    padding: 50px;
+    font-family: copperplate;
+    margin-top: 0;
+  }
+  
+  
+  #img-div {
+    display: block;
+    text-align: center;
+    padding-top: 10px;
+  }
+  
+  #image {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.7)
+    
+    
+  }
+  
+  
+  #img-caption {
+    font-family: Courier New;
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+  
+  
+  }
+  
+  #tribute-info {
+    display: flex;
+    background-color: #97AABD;
+    justify-content: center;
+    font-family: monospace;
+    font-size: 20px;
+    padding: 10px;
+    
+  
+  }
+  
+  
+  #companies-owned {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    font-family: monospace;
+    font-size: 17px;
+    
+  }
+  
+  #mission-statements {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-bottom: 10px;
+    
+  }
+  
+  #column {
+    display: flex;
+    width: 300px;
+    align-self: center;
+    
+  }
+  
+  a {
+    color: white;
+  }
+  
+  a:hover {
+    color: #9E5A63;
+  }
